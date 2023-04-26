@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_TDD_DemoQA</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>1de44805-080d-41f1-9767-c9adef9d3889</testSuiteGuid>
+   <testCaseLink>
+      <guid>70d3c0c9-a1e1-448d-b8bb-c13a63d6e7c9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data_Driven_Test/Input_data</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1f282b6e-2601-46a6-9510-6f94453992e2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/datainputform</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>1f282b6e-2601-46a6-9510-6f94453992e2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FirstName</value>
+         <variableId>0d1836f8-9a96-48fe-8be6-b28a1490bfcf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1f282b6e-2601-46a6-9510-6f94453992e2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>LastName</value>
+         <variableId>e890b5e2-1a2c-4432-9663-71ec65246379</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1f282b6e-2601-46a6-9510-6f94453992e2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Usermail</value>
+         <variableId>27f030cd-83fc-4dc7-99ac-598a7aaebcbe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1f282b6e-2601-46a6-9510-6f94453992e2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Age</value>
+         <variableId>a9d9161a-738f-4bd6-81ac-0f47f9558821</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1f282b6e-2601-46a6-9510-6f94453992e2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Salary</value>
+         <variableId>d5721e1c-ad15-4777-919f-7e9dfbf4919a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1f282b6e-2601-46a6-9510-6f94453992e2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Department</value>
+         <variableId>8df4380c-a601-4bf3-989e-c2e347fb1724</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
